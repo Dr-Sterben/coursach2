@@ -1,0 +1,19 @@
+Client -> Server = ClS
+Server -> Client = SCl
+
+ClS "Name"
+ClS "Game mode"
+if (c) {
+
+}
+else if (e) {
+    SCl "Board1Name, Board2Name, ..."
+    ClS "Board1Name" (Board index)
+    SCl 'x'/'o'
+    ClS "0 4"
+    SCl "2 2"
+    ........
+    ClS "-1"
+
+    ?
+}
